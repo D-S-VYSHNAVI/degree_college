@@ -3,8 +3,8 @@ export const collegeInfo = {
   location: 'Karempudi',
   tagline: 'Empowering Minds, Shaping Futures with Excellence and Discipline',
   address: 'Karempudi, Guntur Dist, Andhra Pradesh, 522614',
-  phone: '+91 98765 43210',
-  email: 'info@srisaicollege.edu',
+  phone: '+91 9490084944',
+  email: 'ramanacharyulu1971@gmail.com',
   social: {
     facebook: '#',
     twitter: '#',
