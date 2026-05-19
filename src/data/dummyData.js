@@ -16,7 +16,7 @@ export const collegeInfo = {
 export const management = {
   chairman: {
     name: 'P. VENKATA SUBBA RAO',
-    designation: 'Chairman & Correspondent',
+    designation: 'Correspondent&Principal',
     message: 'At Sri Sai Degree College, we are committed to providing quality education that empowers students with knowledge, discipline, and values. Our institution continuously strives for academic excellence and holistic student development.'
   }
 };
