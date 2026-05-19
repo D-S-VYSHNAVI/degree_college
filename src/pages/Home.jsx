@@ -248,20 +248,7 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Principal Message */}
-            <div className="relative">
-              <div className="absolute -top-10 -left-10 text-[200px] font-black text-slate-50 select-none">"</div>
-              <div className="relative z-10 space-y-8">
-                <div>
-                  <span className="text-primary-500 font-black uppercase tracking-[0.4em] text-xs mb-4 block italic">Principal's Address</span>
-                  <h2 className="text-4xl md:text-5xl font-black text-primary-900 italic tracking-tighter mb-2">{management.principal.name}</h2>
-                  <p className="text-slate-400 font-black uppercase tracking-widest text-[10px]">{management.principal.designation}</p>
-                </div>
-                <p className="text-xl md:text-2xl text-slate-600 font-medium italic leading-relaxed border-l-8 border-primary-900 pl-10 py-4 bg-slate-50 rounded-r-3xl pr-10">
-                  "{management.principal.message}"
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>

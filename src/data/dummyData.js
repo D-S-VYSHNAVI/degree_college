@@ -18,21 +18,16 @@ export const management = {
     name: 'P. VENKATA SUBBA RAO',
     designation: 'Chairman & Correspondent',
     message: 'At Sri Sai Degree College, we are committed to providing quality education that empowers students with knowledge, discipline, and values. Our institution continuously strives for academic excellence and holistic student development.'
-  },
-  principal: {
-    name: 'VADDAMANU RAMANACHARYULU',
-    designation: 'Principal',
-    message: 'Our goal is to nurture students into skilled professionals and responsible citizens. We focus on academic excellence, innovation, and creating opportunities that help students achieve success in their careers and lives.'
   }
 };
 
 export const facultyData = [
-  { id: 1, name: 'VADDAMANU RAMANACHARYULU', role: 'Principal', dept: 'Administration', qual: 'M.A.(L)', status: 'Active' },
+  { id: 1, name: 'VADDAMANU RAMANACHARYULU', role: 'Lecturer', dept: 'Languages', qual: 'M.A.(L)', status: 'Active' },
   { id: 2, name: 'SYED SHAKIRA', role: 'Lecturer', dept: 'Science', qual: 'B.Sc', status: 'Active' },
   { id: 3, name: 'THUMMA SARITHA', role: 'Senior Assistant', dept: 'Administration', qual: 'B.Ed', status: 'Active' },
   { id: 4, name: 'RAMALA PRAKASA REDDY', role: 'Asst Registrar', dept: 'Commerce', qual: 'M.Com', status: 'Active' },
   { id: 5, name: 'SHAIK KAMAR', role: 'Asst. Prof Physics', dept: 'Science', qual: 'M.Sc', status: 'Active' },
-  { id: 6, name: 'B. SRINIVAS NAIK', role: 'Lecturer Telugu', dept: 'Languages', qual: 'M.A', status: 'Active' },
+  { id: 6, name: 'B. SRINIVAS NAIK', role: 'Lecturer', dept: 'Languages', qual: 'M.A', status: 'Active' },
   { id: 7, name: 'YENUMULA VEERA REDDY', role: 'Asst. Prof', dept: 'Management', qual: 'MBA', status: 'Active' },
   { id: 8, name: 'ADAPA SRINIVASA RAO', role: 'Senior Lecturer Chemistry', dept: 'Science', qual: 'M.Sc', status: 'Active' },
   { id: 9, name: 'BHEEMANABOINA ADILAKSHMI', role: 'Junior Assistant', dept: 'Commerce', qual: 'B.Com Honours', status: 'Active' },

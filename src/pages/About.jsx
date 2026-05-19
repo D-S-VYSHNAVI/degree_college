@@ -98,28 +98,8 @@ const About = () => {
               </div>
             </motion.div>
 
-            {/* Principal */}
-            <motion.div 
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="flex flex-col lg:flex-row-reverse items-center gap-16 bg-primary-900 p-12 md:p-20 rounded-[4rem] shadow-2xl relative overflow-hidden"
-            >
-              <div className="absolute inset-0 bg-gradient-to-br from-primary-800 to-primary-950 opacity-50"></div>
-              <div className="lg:w-1/3 text-center lg:text-right relative z-10">
-                <div className="w-48 h-48 bg-white/5 rounded-[3rem] mx-auto lg:ml-auto lg:mr-0 mb-8 flex items-center justify-center text-white/5 text-9xl font-black overflow-hidden border-8 border-white/5 shadow-inner">
-                  V
-                </div>
-                <h4 className="text-3xl font-black text-white mb-2 italic tracking-tight">{management.principal.name}</h4>
-                <p className="text-primary-500 font-black uppercase tracking-[0.2em] text-xs">{management.principal.designation}</p>
-              </div>
-              <div className="lg:w-2/3 relative z-10">
-                <div className="absolute -top-10 -right-10 text-[150px] font-black text-white/5 select-none -z-10">"</div>
-                <p className="text-xl md:text-2xl text-white/80 font-medium italic leading-relaxed relative z-10 border-r-8 border-primary-500 pr-12 py-4 text-right">
-                  "{management.principal.message}"
-                </p>
-              </div>
-            </motion.div>
+            
+           
           </div>
         </div>
       </section>
